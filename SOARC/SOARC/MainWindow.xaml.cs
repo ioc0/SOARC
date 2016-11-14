@@ -32,7 +32,8 @@ namespace SOARC
 
         private void btnSettings_Click(object sender, RoutedEventArgs e)
         {
-
+            Settings st = new Settings();
+            st.Show();
         }
     }
 }
